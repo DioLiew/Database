@@ -15,6 +15,7 @@
     <RepositoryUrl>https://github.com/DioLiew/Database/Database.LiteDb</RepositoryUrl>
   </PropertyGroup>
   <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\" />
     <PackageReference Include="CSharpExt.Core" Version="1.0.0" />
     <PackageReference Include="LiteDB" Version="5.0.21" />
   </ItemGroup>
