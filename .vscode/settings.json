@@ -1,0 +1,10 @@
+{
+   "editor.dropIntoEditor.preferences": [],
+	"editor.inlineSuggest.enabled": false,
+	"editor.formatOnSave": true,
+	"omnisharp.projectLoadTimeout": 120,
+	"omnisharp.waitForDebugger": true,
+	"csharp-dev-tools.roslyn.projectOrSolutionFiles": [
+		"e:\\Box\\NET 10\\Database\\Database.sln"
+	]
+}

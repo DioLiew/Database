@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <NoWarn>IDE0130</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PackageId>Database.Services</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Dio Liew</Authors>
+    <Company>Venture GES Manufacturing Services(M) Sdn Bhd</Company>
+    <Description>A generic databse package wrapper.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/DioLiew/Database/Database.Services</RepositoryUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="CSharpExt.Core" Version="1.0.0" />
+    <PackageReference Include="SqlKata" Version="4.0.1" />
+    <PackageReference Include="SqlKata.Execution" Version="4.0.1" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,1 @@
+A LiteDb databse package wrapper.
