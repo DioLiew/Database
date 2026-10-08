@@ -15,7 +15,7 @@
     <Description>A generic databse package wrapper.</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <RepositoryUrl>https://github.com/DioLiew/Database/Database.Services</RepositoryUrl>
+    <RepositoryUrl>https://github.com/DioLiew/Database/tree/main/Database.Services</RepositoryUrl>
   </PropertyGroup>
   <ItemGroup>
     <None Include="README.md" Pack="true" PackagePath="\" />
